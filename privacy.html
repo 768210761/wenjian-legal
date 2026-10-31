@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>隐私政策 · 问诊小笺</title><link rel="stylesheet" href="style.css"></head>
+<body><main><p class="top"><a href="index.html">问诊小笺</a> · <a href="privacy.html">隐私政策</a> · <a href="support.html">支持</a></p>
+<h1>问诊小笺 · 隐私政策 / Privacy Policy</h1>
+<blockquote>状态：待发布稿。上架前请把 <code>support@YOUR-EMAIL.com</code>、<code>2026-10-31</code> 替换为真实信息，并把本页发布到可公开访问的 HTTPS URL；App Store Connect 的「隐私政策 URL」必须指向该地址。</blockquote>
+<p><strong>生效日期 / Effective date:</strong> <code>2026-10-31</code>  </p>
+<p><strong>开发者 / Developer:</strong> <code>Wu Chaoyang</code>  </p>
+<p><strong>联系 / Contact:</strong> <code>support@YOUR-EMAIL.com</code></p>
+<p>---</p>
+<h2>中文</h2>
+<h3>1. 我们是什么</h3>
+<p>问诊小笺是面向医学生临床见习的病史采集学习记录工具。它不提供诊断、鉴别诊断、处方、治疗或分诊建议，不替代正式病历、带教老师或临床判断。</p>
+<h3>2. 我们不收集什么</h3>
+<p>本 App 没有账号系统，没有自建后端服务器，不包含广告、分析或崩溃统计 SDK。我们不会把你的草稿、患者信息、录音、照片、头像或签名上传到我们的服务器，也不会将其用于训练模型。</p>
+<h3>3. 本机处理与保存的数据</h3>
+<p>在你使用 App 时，以下内容可能保存在这台设备上：</p>
+<ul>
+<li>问诊草稿：主诉、病史问答、既往史、婚育史、查体、检查、用药、就诊记录等；</li>
+<li>患者称呼/姓名（可匿名）、性别、年龄、职业、婚姻等一般项目；</li>
+<li>你的个人资料：名字/称呼、签名、头像；</li>
+<li>录音：仅在你明确同意后开始；iOS 版使用系统设备端语音识别，音频写入本机临时文件，整理完成或离开录音页后删除；浏览器版录音保存在内存 Blob 中，实时转写可能由浏览器厂商的在线服务处理；</li>
+<li>报告单照片：仅在本机内存/沙盒中用于当前记录，不写入草稿，不进入分享长图；</li>
+<li>分享长图或文字：由你在本机生成，只有你主动打开系统分享面板并选择接收方后才会离开设备。</li>
+</ul>
+<p>iOS 版的问诊草稿使用 AES-GCM 加密后写入 App 沙盒，密钥保存在 Keychain（<code>WhenUnlockedThisDeviceOnly</code>），文件保护为 <code>.complete</code>。个人资料、头像和签名保存在本机 WebView 的 <code>localStorage</code>，未单独加密；请同时使用设备密码和系统备份保护。</p>
+<h3>4. 权限</h3>
+<ul>
+<li>麦克风：录制问诊音频；</li>
+<li>语音识别：把录音转成文字；</li>
+<li>相机/照片：拍摄或选择报告单、头像；</li>
+<li>Face ID / 设备密码：解锁 App，遮挡切换台中的问诊内容。</li>
+</ul>
+<p>Face ID / Touch ID 由 iOS <code>LocalAuthentication</code> 完成。App 不会读取或保存你的生物识别模板。拒绝权限后，你仍可手动填写主诉和病史。</p>
+<h3>5. 分享</h3>
+<p>分享长图默认隐去姓名、床号和联系方式；音频、报告单照片和草稿原文不会随图分享。分享文字由你主动触发。接收方（微信、QQ、邮件等）如何处理内容，取决于该第三方的隐私政策；转发前请再次确认患者隐私。</p>
+<h3>6. 保留与删除</h3>
+<ul>
+<li>草稿：保留到你删除单条草稿、执行「清除本机所有草稿」或卸载 App；</li>
+<li>录音：整理完成或离开录音页后释放；iOS 临时文件同时删除；</li>
+<li>报告单照片：仅当前记录使用，刷新/离开后释放；</li>
+<li>个人资料：保留到你修改、清除数据或卸载 App。</li>
+</ul>
+<p>你可以在 App 内删除草稿和本机数据，也可以通过卸载 App 删除本机数据。iOS 加密草稿的密钥与文件绑定本机；换机或恢复备份后，旧草稿可能无法解密，App 会保留原文件并提示，不会静默覆盖。</p>
+<h3>7. 第三方</h3>
+<p>App 使用 Apple 提供的系统能力（设备端语音识别、照片选择、系统分享面板、Face ID）。除你主动使用系统分享外，App 不向第三方传输数据。浏览器版的实时转写可能使用浏览器厂商的在线服务，具体取决于浏览器和网络环境；iOS 版不调用在线语音识别。</p>
+<h3>8. 儿童</h3>
+<p>本 App 面向医学生和临床学习者，不面向儿童，也不主动收集儿童个人信息。未成年人使用应由监护人指导，并遵守所在机构规定。</p>
+<h3>9. 医疗边界</h3>
+<p>本 App 仅用于病史采集学习记录，不构成诊断、处方或任何医疗建议。最终记录请以患者实际情况、带教老师意见及正式病历为准。</p>
+<h3>10. 变更</h3>
+<p>我们可能更新本政策。重大变更会在 App 内或本页提示。继续使用即表示你了解更新后的政策。</p>
+<p>---</p>
+<h2>English</h2>
+<h3>1. What this app is</h3>
+<p>Wenjian Note is a history-taking study record for medical students on clinical placements. It does not provide diagnosis, differential diagnosis, prescriptions, treatment, or triage advice, and it does not replace the formal medical record, your supervisor, or clinical judgement.</p>
+<h3>2. What we do not collect</h3>
+<p>The app has no account system, no developer-operated backend, and no advertising, analytics, or crash-reporting SDK. We do not upload your drafts, patient information, recordings, photos, avatar, or signature to our servers, and we do not use them for model training.</p>
+<h3>3. Data processed and stored on this device</h3>
+<p>The app may store the following on this device:</p>
+<ul>
+<li>consultation drafts: chief complaint, history answers, past history, obstetric history, signs, tests, medications, and visit records;</li>
+<li>patient name or pseudonym, sex, age, occupation, marital status, and other general information;</li>
+<li>your profile: name, signature, and avatar;</li>
+<li>recordings: started only after your explicit consent. The iOS app uses on-device speech recognition and writes audio to a local temporary file, deleted after organizing or when you leave the recording screen. In a browser, audio stays in an in-memory Blob and live transcription may be processed by the browser vendor&#x27;s online service;</li>
+<li>report photos: used only for the current record in local memory/sandbox; not saved in drafts and not included in shared images;</li>
+<li>shared images or text: generated on this device and leave it only when you open the system share sheet and choose a recipient.</li>
+</ul>
+<p>In the iOS app, drafts are encrypted with AES-GCM in the app sandbox. The key is stored in the Keychain (<code>WhenUnlockedThisDeviceOnly</code>) and the file uses <code>.complete</code> protection. Profile, avatar, and signature are stored in the local WebView <code>localStorage</code> without separate encryption; also protect the device with a passcode and encrypted backups.</p>
+<h3>4. Permissions</h3>
+<ul>
+<li>Microphone: record consultation audio;</li>
+<li>Speech recognition: turn recordings into text;</li>
+<li>Camera/Photos: take or choose report photos and avatars;</li>
+<li>Face ID / device passcode: unlock the app and cover consultation content in the app switcher.</li>
+</ul>
+<p>Face ID / Touch ID is handled by iOS <code>LocalAuthentication</code>. The app does not read or store biometric templates. If you deny a permission, you can still enter the chief complaint and history manually.</p>
+<h3>5. Sharing</h3>
+<p>Shared images hide name, bed number, and contact details by default. Audio, report photos, and draft text are not included. Text sharing is initiated by you. How a recipient (WeChat, QQ, email, etc.) handles the content is governed by that third party&#x27;s privacy policy. Reconfirm patient privacy before forwarding.</p>
+<h3>6. Retention and deletion</h3>
+<ul>
+<li>Drafts: kept until you delete a draft, use “Clear all local drafts,” or uninstall the app;</li>
+<li>Recordings: released after organizing or leaving the recording screen; iOS temporary files are deleted at the same time;</li>
+<li>Report photos: used for the current record only and released after refresh/leaving;</li>
+<li>Profile: kept until you edit it, clear data, or uninstall the app.</li>
+</ul>
+<p>You can delete drafts and local data in the app, or uninstall the app to remove local data. iOS encrypted drafts are bound to this device; after a device transfer or backup restore, old drafts may not decrypt. The app keeps the original file and warns instead of silently overwriting it.</p>
+<h3>7. Third parties</h3>
+<p>The app uses Apple system services (on-device speech recognition, photo picker, system share sheet, Face ID). It does not transmit data to third parties except when you actively use the system share sheet. Browser-based live transcription may use the browser vendor&#x27;s online service, depending on the browser and network; the iOS app does not use online speech recognition.</p>
+<h3>8. Children</h3>
+<p>The app is intended for medical students and clinical learners, not children, and does not knowingly collect children&#x27;s personal information. Minors should use it with guardian guidance and follow their institution&#x27;s rules.</p>
+<h3>9. Medical boundary</h3>
+<p>This app is for history-taking study records only. It does not constitute diagnosis, prescription, or medical advice. The final record must follow the patient&#x27;s actual situation, your supervisor&#x27;s guidance, and the formal medical record.</p>
+<h3>10. Changes</h3>
+<p>We may update this policy. Material changes will be indicated in the app or on this page. Continued use means you understand the updated policy.</p>
+<p class="footer">问诊小笺 · 本机病史采集学习记录工具</p></main></body></html>

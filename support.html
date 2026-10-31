@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>支持 · 问诊小笺</title><link rel="stylesheet" href="style.css"></head>
+<body><main><p class="top"><a href="index.html">问诊小笺</a> · <a href="privacy.html">隐私政策</a> · <a href="support.html">支持</a></p>
+<h1>问诊小笺 · 支持 / Support</h1>
+<p><strong>支持邮箱 / Email:</strong> <code>support@YOUR-EMAIL.com</code>  </p>
+<p><strong>隐私政策 / Privacy:</strong> <code>privacy.html</code>  </p>
+<p><strong>响应时间 / Response time:</strong> 2–5 个工作日</p>
+<h2>常见问题</h2>
+<h3>草稿在哪里？会上传吗？</h3>
+<p>草稿只保存在这台设备。iOS 版使用 AES-GCM 加密文件，密钥在 Keychain；浏览器版存在 <code>localStorage</code>。没有账号，没有自建后端，不会上传。</p>
+<h3>录音会上传吗？</h3>
+<p>iOS 版录音写入本机临时文件，使用系统设备端语音识别，整理后删除；浏览器版原声在内存中，实时转写可能使用浏览器厂商在线服务。不会上传到我们的服务器。</p>
+<h3>为什么没有离线语音模型？</h3>
+<p>iOS 设备端语音识别需要对应语言的离线模型。可在系统设置中下载；没有模型时 App 会提示并回到手动填写，不会偷偷切换在线识别。</p>
+<h3>换机 / 重装后草稿打不开？</h3>
+<p>加密密钥绑定本机。换机或恢复备份后旧草稿可能无法解密；App 会保留原文件并提示，不会静默覆盖。可在「我的 → 清除本机所有草稿」后重新开始。</p>
+<h3>怎么删除数据？</h3>
+<p>单条草稿可在草稿箱删除；「我的 → 清除本机所有草稿」会删除草稿、录音设置和本机偏好。卸载 App 也会删除本机数据。</p>
+<h3>这是医疗器械吗？能用来诊断吗？</h3>
+<p>不是。它是医学生病史采集学习记录工具，不提供诊断、处方或治疗建议。最终记录以带教老师核对后的正式病历为准。</p>
+<h3>分享长图会带患者姓名吗？</h3>
+<p>默认隐去姓名、床号和联系方式；音频、报告单照片和草稿原文不会随图分享。转发前请再次确认患者隐私。</p>
+<p class="footer">问诊小笺 · 本机病史采集学习记录工具</p></main></body></html>
